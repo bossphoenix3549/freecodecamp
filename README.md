@@ -5,4 +5,4 @@ This Repository contains all of my FreeCodeCamp Responsive Wed Development Proje
 
 Feel free to suggest anything...
 Drop me a mail at: 
-smile.hamza@gmail.com
+smile.hamza@hotmail.com
