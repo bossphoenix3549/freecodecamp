@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form || BossPhoenix's project</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>    
+        <h1 id="title">Survey Form</h1>
+        <p id="description"><i>Please</i> help us to improve our platform by filling this <b>Survey Form</b></p>
+    </header>
+    <div class="container">
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" class="input" name="name" id="name" placeholder="&nbsp &nbsp Enter your name" required>
+        <br>
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" class="input" name="email" id="email" placeholder="&nbsp &nbsp Enter your email" required>
+        <br>
+        <label for="number" id="number-label">Age</label><br>
+        <input type="number" class="input" id="number" min="6" max="10" placeholder="&nbsp &nbsp Enter your age">
+        <br>
+        <p><b>Gender</b></p>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+        <br>
+        <p>Did you like our platform?</p>
+        <select name="dropdown" id="dropdown">
+            <option disabled selected value>Please select one</option>
+            <option value="yes">YES</option>
+            <option value="yes_s">Yes but it can be improved</option>
+            <option value="no">NO</option>
+            <option value="no_s">Needs serious upgrades</option>
+        </select>
+        <br>
+        <br>
+        <p>Tell us which services you used.</p>
+        <label for="CSSMouse">CSSMouse</label>
+        <input type="checkbox" name="CSSMouse" id="CSSMouse" value="CSSMouse">
+        <br>
+        <label for="JSMonitor">JSMonitor</label>
+        <input type="checkbox" name="JSMonitor" id="JSMonitor" value="JSMonitor">
+        <br>
+        <label for="CPU+ Servers">CPU+ Servers</label>
+        <input type="checkbox" name="CPU+ Servers" id="CPU+ Servers" value="CPU+ Servers">
+        <br>
+        <label for="HTMLAdditionals">HTMLAdditionals</label>
+        <input type="checkbox" name="HTMLAdditionals" id="HTMLAdditionals" value="HTMLAdditionals">
+        <br>
+        <br>
+        <p>Please tell us if you have any suggestions or comments.</p>
+        <textarea name="additional" id="additional"></textarea>
+        <br>
+        <input type="submit" id="submit">
+    </form>
+    </div>
+</body>
+</html>

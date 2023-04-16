@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(rgba(58,58,158,0.8), rgba(136,136,206,0.7)), url(images/survey_Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: monospace;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: max-content;
+    background-color: rgba(0, 0, 100, 0.5);
+    border-radius: 5px;
+    padding: 40px 20px 40px 20px;
+    font: 1em sans-serif;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#dropdown {
+    width: 100%;
+    height: 35px;
+    border: 2px solid #ced4da;
+    border-radius: 5px; 
+    padding: 0.374rem;
+    font: 900;
+}
+
+#additional {
+    width: 100%;  
+    height: 75px;
+    border-radius: 10px;  
+}
+
+#submit {
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #37af65;
+    border-radius: 15px;
+    box-shadow: none;
+    border: hidden;
+}
